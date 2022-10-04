@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import * as Speech from "expo-speech";
 import react, { useState } from "react";
+//npx expo install expo-speech pitää ladata ensin
 
 export default function App() {
   const [input, setInput] = useState("");
